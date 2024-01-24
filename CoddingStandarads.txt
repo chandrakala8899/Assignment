@@ -1,0 +1,57 @@
+Solid Principles Java
+Solid principles are an object-oriented approach to software structure design.
+o Single Responsibility Principle (SRP)
+o Open-Closed Principle (OCP)
+o Liskov Substitution Principle (LSP)
+o Interface Segregation Principle (ISP)
+o Dependency Inversion Principle (DIP)
+OOPs CONCEPT (Object Oriented Programming Principles)
+ASSOCIATION
+It represents the relation between the objects.one object is associated with another objects or many objects.
+One to One 
+One object is associated with only one object
+ examples: One Country can have only one Prime Minister
+                           Bank Accounts, Recharges
+One to Many 
+One object is associated with many objects
+Examples: teacher in the class room 
+                   One Prime Minister to the many Ministers 
+Many to Many 
+Many objects is associated with Many objects
+Examples: Books Authors, projects in a company 
+Many to One
+Many objects is associated with only One object
+Example: Mobile Apps, engine in vehicles
+Association has divided into 
+AGGREGATION
+* It represents Has-A’s relationship.
+* It is a unidirectional i.e. a one-way relationship.
+* In Aggregation, both objects can survive individually which means ending one object will not affect the other object.
+* Ex:- a department can have students but vice versa is not possible and thus unidirectional in nature, mobile Apps 
+* It represents a diamond arrow without filled
+COMPOSITION
+* It represents Has-A relationship
+* Composition is also to achieve Association. There is a strong relationship between the objects. where one object contains another object, both are interdependent.
+* If you delete one object automatically delete another object.
+* EX:- Bank and Accounts, orders, driver and vehicles  
+* It denoted as strong arrow diamond with filled
+INHERITANCE 
+* It represents Is-A relationship
+* It is  important part of OOPs
+* Inheritance in which one object acquire all properties
+* It has super class (parent class) and sub class (child class)
+* It provides a code reusability.
+* EX:- company and employees
+POLYMORPHISM
+* Single action performs different ways
+* EX:-payment methods, learning new things ,messaging.
+ABSTARCTION
+* It is hiding the internal process and show external function.
+* EX:-Windows operating, payment process, phone call
+ENCAPSULATION
+* Encapsulation is a data together a single unit.
+* EX:- capsule, smart phone
+
+
+
+
